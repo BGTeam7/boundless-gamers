@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/boundless-gamers/static/css/main.107acab0.css",
-    "main.js": "/boundless-gamers/static/js/main.f23788cd.js",
+    "main.css": "/boundless-gamers/static/css/main.55f519f8.css",
+    "main.js": "/boundless-gamers/static/js/main.cf5760fd.js",
     "static/js/453.89257d21.chunk.js": "/boundless-gamers/static/js/453.89257d21.chunk.js",
-    "static/media/footer.svg": "/boundless-gamers/static/media/footer.5a155c27dc84abe0f1b2b0709d2be694.svg",
+    "static/media/game.png": "/boundless-gamers/static/media/game.e50d36c21c36ddae90ce.png",
     "static/media/conspiracy.svg": "/boundless-gamers/static/media/conspiracy.e2987e1cf19506c3364f075e0e64fb95.svg",
     "static/media/topcircuit.svg": "/boundless-gamers/static/media/topcircuit.322dff6309de5e9eff2f0350b985eb31.svg",
     "static/media/logo.svg": "/boundless-gamers/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/circuit.svg": "/boundless-gamers/static/media/circuit.cafb04c2d76afee1bfd53ae3cfc12b7a.svg",
     "index.html": "/boundless-gamers/index.html",
-    "main.107acab0.css.map": "/boundless-gamers/static/css/main.107acab0.css.map",
-    "main.f23788cd.js.map": "/boundless-gamers/static/js/main.f23788cd.js.map",
+    "main.55f519f8.css.map": "/boundless-gamers/static/css/main.55f519f8.css.map",
+    "main.cf5760fd.js.map": "/boundless-gamers/static/js/main.cf5760fd.js.map",
     "453.89257d21.chunk.js.map": "/boundless-gamers/static/js/453.89257d21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.107acab0.css",
-    "static/js/main.f23788cd.js"
+    "static/css/main.55f519f8.css",
+    "static/js/main.cf5760fd.js"
   ]
 }
