@@ -16,10 +16,10 @@ function TeamCard(props) {
     return (
         <div>
             <div className="bluefill" onClick={setToggle}>
-                <div className="w-24 sm:w-52 aspect-square corner-frame border-blue-300 p-1">
-                    <img loading="lazy" src={logo}/>
+                <div className="w-24 sm:w-52 corner-frame border-blue-300 p-1">
+                    <img loading="lazy" src={props.img} className="aspect-square w-full object-cover"/>
                     <p className="text-center text-sm md:text-lg">{props.name}</p>
-                    <p className="text-center text-xs md:text-base">{props.role}</p>
+                    <p className="text-center text-xs text-gray-300 md:text-base">{props.role}</p>
                 </div>
             </div>
             {toggle &&(

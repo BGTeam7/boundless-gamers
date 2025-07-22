@@ -42,7 +42,6 @@ h1, h2 {
 
 .hero {
   height: 60vh;
-  background-color: slategrey;
 }
 
 .gradient-shape {
@@ -54,14 +53,34 @@ h1, h2 {
   /* background: linear-gradient(69deg,rgba(99, 134, 208, 1) 14%, rgba(88, 40, 126, 1) 100%); */
 }
 
+.gradient-shape .border {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 99%;
+  width: 99%;
+  clip-path: polygon(0 0, 25% 0, 75% 100%, 0 100%);
+}
 
-.navbar a:hover {
-  font-weight: 700;
-  color:blue;
+.navbar {
+  color:white;
+  background-color: #111;
+}
+
+.navbar a {
+  padding: 0 11px;
 }
 
 .navbar a.active {
-  font-weight: 700;
+  padding: 0 8px;
+  border-bottom: #FFA8CD solid 1.5px;
+  box-shadow: 0 4px 2px -2px #F7006A;
+}
+
+.navbar a:hover {
+  color: #FFA8CD;
+  text-shadow: 0 0 10px #F7006A;
+  transition: all 0.2s;
 }
 
 .gradient {
@@ -71,7 +90,10 @@ h1, h2 {
 }
 
 .textgradient {
-  color: linear-gradient(69deg,rgba(99, 134, 208, 1) 14%, rgba(88, 40, 126, 1) 100%);
+  background: linear-gradient(69deg,#6193FF 35%,#F7006A 65%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .pinkgradient {
@@ -82,7 +104,7 @@ h1, h2 {
 .bluefill {
   background-color: rgba(57, 120, 252, 0.1);
   box-shadow: 0 0 5px #3978FC;
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(10px);
 }
 
 .pinkfill {

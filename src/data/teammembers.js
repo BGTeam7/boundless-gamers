@@ -1,9 +1,9 @@
-
+import mike from "../assets/headshots/mike_p.jpg";
 
 const TeamMembers = [
     {
         id:0,
-        photo: "insert",
+        img: mike,
         name: "Mike Pasqualicchio",
         pronouns: "He/Him",
         role: "President & Co-Founder",
@@ -13,7 +13,7 @@ const TeamMembers = [
     },
     {
         id:1,
-        photo: "insert",
+        img: mike,
         name: "David Thomas",
         pronouns: "He/Him",
         role: "President & Co-Founder",
@@ -23,7 +23,7 @@ const TeamMembers = [
     },
     {
         id:2,
-        photo: "insert",
+        img: mike,
         name: "Jazz",
         pronouns: "He/Him",
         role: "President & Co-Founder",
