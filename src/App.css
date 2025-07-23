@@ -53,6 +53,15 @@ h1, h2 {
   /* background: linear-gradient(69deg,rgba(99, 134, 208, 1) 14%, rgba(88, 40, 126, 1) 100%); */
 }
 
+.gradient-shape-mobile {
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 75%, 100% 25%, 100% 100%, 0% 100%);
+  background-color: rgba(57, 120, 252, 0.1);
+  backdrop-filter: blur(40px);
+  /* background: linear-gradient(69deg,rgba(99, 134, 208, 1) 14%, rgba(88, 40, 126, 1) 100%); */
+}
+
 .gradient-shape .border {
   position: absolute;
   top: 2px;
@@ -213,7 +222,8 @@ progress[value]::-moz-progress-bar {
 }
 
 input[type=text], textarea {
-  background: none;
+  background-color: rgba(57, 120, 252, 0.1);
+  backdrop-filter: blur(10px);
   color: white;
   border: lightblue 1px solid;
   box-shadow: 0 0 5px #3978FC;

@@ -6,6 +6,7 @@ import TeamCard from "../components/teamcard";
 import conspiracy from "../assets/conspiracy.svg";
 import topcircuit from "../assets/topcircuit.svg";
 import circuit from "../assets/circuit.svg";
+import circuit2 from "../assets/circuit2.svg";
 import background from "../assets/game.png";
 import gamers from "../assets/gamersoutreach.png";
 import extralife from "../assets/extralife.png";
@@ -18,12 +19,19 @@ import cobra from "../twitch/cobragirl.jpg"
 const Home = () => {
     return (
         <>
-        <div className="relative hero bg-cover" style={{ backgroundImage: `url(${background})`}}>
-            <div className="absolute gradient-shape"></div>
-            <h1 className="text-white absolute mx-auto md:left-10 bottom-1/4 text-left font-bold z-10 text-xl md:text-3xl">
-                Welcome to<br/>Pixel Games<br/>Studios!
-            </h1>
-
+        <div className="hero bg-cover bg-top" style={{ backgroundImage: `url(${background})`}}>
+            {/* PC hero text */}
+            <div className="gradient-shape hidden md:flex items-center p-24">
+                <h1 className="text-white text-left font-bold text-3xl md:text-4xl">
+                    Welcome to<br/>Pixel Games<br/>Studios!
+                </h1>
+            </div>
+            {/* Mobile hero text */}
+            <div className="gradient-shape-mobile md:hidden">
+                <h1 className="text-white text-center font-bold text-3xl md:text-4xl absolute left-0 right-0 bottom-10">
+                    Welcome to<br/>Pixel Games<br/>Studios!
+                </h1>
+            </div>
         </div>
         <section className="my-10 space-y-2">
             {/* <div className="sm:flex place-items-end gap-5">
@@ -36,18 +44,21 @@ const Home = () => {
                 </div>
             </div> */}
             <div className="mx-4 md:mx-24 items-center flex flex-col md:flex-row gap-8">
-                <img src={logo} className="w-36 h-full justify-center"/>
+                <img src={logo} className="w-36 h-full justify-center -rotate-90 md:rotate-0"/>
                 <p className="text-xl">Non-profit gaming charity developing a game called "It's a Conspiracy!" <br/><br/>51% of the proceeds will go to our partners: Gamers Outreach, Stack Up, and Extra Life.</p>
             </div>
         </section>
         <section>
-            <div className="sm:flex place-items-end gap-5">
+            <div className="sm:flex place-items-end gap-5 mt-10">
                 <div className="hidden sm:block sm:flex-auto">
                     <img src={circuit} className="w-full -scale-x-100"/>
                 </div>
                 <h1 className="text-center text-2xl md:text-3xl mx-0 sm:mx-8 ">PARTNERS</h1>
-                <div className="hidden sm:block sm:flex-auto">
-                    <img src={circuit} className="w-full"/>
+                <div className="hidden sm:flex sm:flex-auto">
+                    <img src={circuit} className="w-full ml-4"/>
+                </div>
+                <div className="flex flex-auto sm:hidden">
+                    <img src={circuit2} className="w-full ml-4 -scale-y-100"/>
                 </div>
             </div>
             <div className="my-12 flex flex-wrap justify-center gap-3 md:gap-6 mx-4 md:mx-24">
@@ -70,9 +81,9 @@ const Home = () => {
         </section>
         <section className="my-10">
             <img src={topcircuit}></img>
-            <div className="mx-0 sm:mx-24 flex flex-col gap-8 justify-center text-center">
-                <img src={conspiracy} className="w-4/5 self-center"></img>
-                <h2 className="text-base md:text-3xl font-semibold textgradient">GAME COMING SOON...</h2>
+            <div className="mx-0 h-[60vh] sm:mx-24 flex flex-col gap-8 justify-center text-center">
+                <img src={conspiracy} className="px-4 self-center"></img>
+                <h2 className="text-2xl md:text-3xl font-semibold textgradient">GAME COMING SOON...</h2>
                 <p className=" text-sm md:text-base sixtyfour">Stay tuned for updates</p>
             </div>
             <img src={topcircuit} className="-scale-y-100"></img>
@@ -87,13 +98,16 @@ const Home = () => {
             </div>
         </section>
         <section>
-            <div className="sm:flex place-items-end gap-5">
+            <div className="sm:flex place-items-end gap-5 mt-10">
                 <div className="hidden sm:block sm:flex-auto">
                     <img src={circuit} className="w-full -scale-x-100"/>
                 </div>
-                <h1 className="text-center text-2xl md:text-3xl sm:ml-0 ">LEADERSHIP</h1>
-                <div className="hidden sm:block sm:flex-auto">
-                    <img src={circuit} className="w-full"/>
+                <h1 className="text-center text-2xl md:text-3xl">LEADERSHIP</h1>
+                <div className="hidden sm:flex sm:flex-auto">
+                    <img src={circuit} className="w-full ml-4"/>
+                </div>
+                <div className="flex flex-auto sm:hidden">
+                    <img src={circuit2} className="w-full ml-4 -scale-y-100"/>
                 </div>
             </div>
             <div className="my-12 flex flex-wrap justify-center gap-3 md:gap-6 mx-4 md:mx-24">
@@ -105,13 +119,16 @@ const Home = () => {
             </div>
         </section>
         <section>
-            <div className="sm:flex place-items-end gap-5">
+            <div className="sm:flex place-items-end gap-5 mt-10">
                 <div className="hidden sm:block sm:flex-auto">
                     <img src={circuit} className="w-full -scale-x-100"/>
                 </div>
-                <h1 className="text-center text-xl md:text-3xl sm:ml-0">STREAMER FRIENDS</h1>
-                <div className="hidden sm:block sm:flex-auto">
-                    <img src={circuit} className="w-full"/>
+                <h1 className="text-center text-2xl md:text-3xl min-w-max">STREAMER FRIENDS</h1>
+                <div className="hidden sm:flex sm:flex-auto">
+                    <img src={circuit} className="w-full ml-4"/>
+                </div>
+                <div className="flex sm:hidden">
+                    <img src={circuit2} className="w-full ml-4 -scale-y-100"/>
                 </div>
             </div>
             <div className="my-12 flex flex-wrap justify-center gap-3 md:gap-6 mx-4 md:mx-24">
