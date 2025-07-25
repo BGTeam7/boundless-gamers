@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/boundless-gamers/static/css/main.94488516.css",
-    "main.js": "/boundless-gamers/static/js/main.7b4ed1b7.js",
+    "main.css": "/boundless-gamers/static/css/main.18ddf444.css",
+    "main.js": "/boundless-gamers/static/js/main.e0ecc1b2.js",
     "static/js/453.89257d21.chunk.js": "/boundless-gamers/static/js/453.89257d21.chunk.js",
+    "static/media/davidt.png": "/boundless-gamers/static/media/davidt.a4ab9ddf675c92ddfdda.png",
+    "static/media/allie_p.png": "/boundless-gamers/static/media/allie_p.0d6ca621c8bfc597ee9e.png",
     "static/media/game.png": "/boundless-gamers/static/media/game.e50d36c21c36ddae90ce.png",
     "static/media/logo.png": "/boundless-gamers/static/media/logo.c270fe857b71d05bfc91.png",
+    "static/media/jacques.jpeg": "/boundless-gamers/static/media/jacques.5c2cc284b22d64547ebc.jpeg",
     "static/media/mike_p.jpg": "/boundless-gamers/static/media/mike_p.f2fb952c7052ad808b2d.jpg",
     "static/media/cobragirl.jpg": "/boundless-gamers/static/media/cobragirl.1c11eef8fe9957b6e899.jpg",
     "static/media/gamersoutreach.png": "/boundless-gamers/static/media/gamersoutreach.5024440af9dbfdbb1861.png",
@@ -19,12 +22,12 @@
     "static/media/circuit.svg": "/boundless-gamers/static/media/circuit.cafb04c2d76afee1bfd53ae3cfc12b7a.svg",
     "static/media/border.svg": "/boundless-gamers/static/media/border.2aa6d392f455df7703e6.svg",
     "index.html": "/boundless-gamers/index.html",
-    "main.94488516.css.map": "/boundless-gamers/static/css/main.94488516.css.map",
-    "main.7b4ed1b7.js.map": "/boundless-gamers/static/js/main.7b4ed1b7.js.map",
+    "main.18ddf444.css.map": "/boundless-gamers/static/css/main.18ddf444.css.map",
+    "main.e0ecc1b2.js.map": "/boundless-gamers/static/js/main.e0ecc1b2.js.map",
     "453.89257d21.chunk.js.map": "/boundless-gamers/static/js/453.89257d21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94488516.css",
-    "static/js/main.7b4ed1b7.js"
+    "static/css/main.18ddf444.css",
+    "static/js/main.e0ecc1b2.js"
   ]
 }
