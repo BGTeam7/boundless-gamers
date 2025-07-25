@@ -12,7 +12,7 @@ const Connect = () => {
                 <div className="hidden sm:block sm:flex-auto">
                     <img src={circuit} className="w-full -scale-x-100"/>
                 </div>
-                <h1 className="text-center text-2xl md:text-3xl min-w-max">DONATIONS</h1>
+                <h1 className="text-center text-2xl md:text-3xl min-w-max">DONATIONS (TBA)</h1>
                 <div className="hidden sm:flex sm:flex-auto">
                     <img src={circuit} className="w-full ml-4"/>
                 </div>
@@ -20,9 +20,9 @@ const Connect = () => {
                     <img src={circuit2} className="w-full ml-4 -scale-y-100"/>
                 </div>
             </div>
-            <p className="mb-8">
+            {/* <p className="mb-8">
                 Your support is optional but greatly appreciated, as it helps us aid various gaming charities like Child's Play and others. Our mission is to supply gaming hardware and physical games to these charitable organizations. We also create care packages with game keys for gamers going through tough times, and we run numerous giveaways in communities to bring more smiles to people's faces.
-            </p>
+            </p> */}
             <p className="text-lg font-semibold">Ways to Contribute:</p>
             <ol className="">
                 <li>Click the "Donate" button to send funds directly to Boundless Gamers.</li>
