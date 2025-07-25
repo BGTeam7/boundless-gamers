@@ -13,7 +13,7 @@ const Mission = () => {
             {/* PC hero text */}
             <div className="gradient-shape hidden md:flex items-center p-24">
                 <h1 className="text-white text-left font-bold text-3xl md:text-4xl">
-                    Welcome to<br/>Pixel Games<br/>Studios!
+                    About
                 </h1>
             </div>
             {/* Mobile hero text */}

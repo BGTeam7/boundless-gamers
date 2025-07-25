@@ -23,13 +23,13 @@ const Home = () => {
             {/* PC hero text */}
             <div className="gradient-shape hidden md:flex items-center p-24">
                 <h1 className="text-white text-left font-bold text-3xl md:text-4xl">
-                    Welcome to<br/>Pixel Games<br/>Studios!
+                    Spreading happiness<br/>One Game at a Time!
                 </h1>
             </div>
             {/* Mobile hero text */}
             <div className="gradient-shape-mobile md:hidden">
                 <h1 className="text-white text-center font-bold text-3xl md:text-4xl absolute left-0 right-0 bottom-10">
-                    Welcome to<br/>Pixel Games<br/>Studios!
+                    Spreading happiness<br/>One Game at a Time!
                 </h1>
             </div>
         </div>
@@ -44,8 +44,10 @@ const Home = () => {
                 </div>
             </div> */}
             <div className="mx-4 md:mx-24 items-center flex flex-col md:flex-row gap-8">
-                <img src={logo} className="w-36 h-full justify-center -rotate-90 md:rotate-0"/>
-                <p className="text-xl">Non-profit gaming charity developing a game called "It's a Conspiracy!" <br/><br/>51% of the proceeds will go to our partners: Gamers Outreach, Stack Up, and Extra Life.</p>
+                {/* <img src={logo} className="w-36 h-full justify-center -rotate-90 md:rotate-0"/> */}
+                <div>
+                    <p className="text-2xl text-center">Boundless Gamers is a gaming charity committed to helping kids and others in the gaming community and related organizations.</p>
+                </div>
             </div>
         </section>
         <section>
@@ -91,7 +93,7 @@ const Home = () => {
         <section className=" bg-left-top bg-cover py-32" style={{ backgroundImage: `url(${background})`}}>
             <div className="bluefill m-auto px-auto py-32 space-y-8 w-3/4 text-center">
                 <h2 className="text-2xl md:text-5xl font-bold">JOIN OUR CHARITY LIVESTREAM!</h2>
-                <p>Every Saturday on Twitch 8pm EST</p>
+                <p>Every Saturday on Twitch 7pm EST</p>
                 <a href="https://www.twitch.tv/boundlessgamers">
                     <button className="pinkgradient text-white font-medium righteous rounded-md p-2 mt-4">GET INVOLVED</button>
                 </a>
@@ -113,7 +115,7 @@ const Home = () => {
             <div className="my-12 flex flex-wrap justify-center gap-3 md:gap-6 mx-4 md:mx-24">
                 {TeamMembers.map((e) => {
                     return (
-                        <TeamCard name={e.name} pronouns={e.pronouns} role={e.role} skills={e.skills} email={e.email} img={e.img} fact={e.fact}/>
+                        <TeamCard name={e.name} title={e.title} pronouns={e.pronouns} role={e.role} skills={e.skills} email={e.email} img={e.img} fact={e.fact}/>
                     );
                 })}
             </div>
