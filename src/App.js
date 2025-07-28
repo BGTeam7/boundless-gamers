@@ -15,7 +15,7 @@ import Legal from './pages/legal';
 function App() {
   return (
     <div className="App">
-      <Router basename={"/boundless-gamers"}>
+      <Router>
         <Navbar/>
           <Routes>
               <Route exact path="/" element={<Home />} />
