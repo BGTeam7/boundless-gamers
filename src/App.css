@@ -221,7 +221,7 @@ progress[value]::-moz-progress-bar {
   background: #F7006A;
 }
 
-input[type=text], textarea {
+input[type=text], textarea, input[type=email] {
   background-color: rgba(57, 120, 252, 0.1);
   backdrop-filter: blur(10px);
   color: white;
