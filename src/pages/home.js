@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             {/* Mobile hero text */}
             <div className="gradient-shape-mobile md:hidden">
-                <h1 className="text-white text-center font-bold text-3xl md:text-4xl absolute left-0 right-0 bottom-10">
+                <h1 className="text-white text-center font-bold text-2xl absolute left-0 right-0 bottom-10">
                     Spreading happiness<br/>One Game at a Time!
                 </h1>
             </div>
@@ -46,7 +46,7 @@ const Home = () => {
             <div className="mx-4 md:mx-24 items-center flex flex-col md:flex-row gap-8">
                 {/* <img src={logo} className="w-36 h-full justify-center -rotate-90 md:rotate-0"/> */}
                 <div>
-                    <p className="text-2xl text-center">Boundless Gamers is a gaming charity committed to helping kids and others in the gaming community and related organizations.</p>
+                    <p className="text-xl md:text-2xl text-center">Boundless Gamers is a gaming charity committed to helping kids and others in the gaming community and related organizations.</p>
                 </div>
             </div>
         </section>
@@ -82,13 +82,13 @@ const Home = () => {
             </div>
         </section>
         <section className="my-10">
-            <img src={topcircuit}></img>
+            <img src={topcircuit} className="w-full"></img>
             <div className="mx-0 h-[60vh] sm:mx-24 flex flex-col gap-8 justify-center text-center">
                 <img src={conspiracy} className="px-4 self-center"></img>
                 <h2 className="text-2xl md:text-3xl font-semibold textgradient">GAME COMING SOON...</h2>
                 <p className=" text-sm md:text-base sixtyfour">Stay tuned for updates</p>
             </div>
-            <img src={topcircuit} className="-scale-y-100"></img>
+            <img src={topcircuit} className="-scale-y-100 w-full"></img>
         </section>
         <section className=" bg-left-top bg-cover py-32" style={{ backgroundImage: `url(${background})`}}>
             <div className="bluefill m-auto px-auto py-32 space-y-8 w-3/4 text-center">

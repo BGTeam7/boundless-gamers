@@ -239,3 +239,9 @@ input[type=text], textarea, input[type=email] {
   width: 30%;
   border-image: url(./assets/border.svg) 40 round;
 }
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}

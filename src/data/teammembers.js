@@ -28,17 +28,6 @@ const TeamMembers = [
     },
     {
         id:2,
-        img: allie_p,
-        name: "Allie Prusinski",
-        pronouns: "She/Her",
-        title: "Content Creator",
-        role: "Content Creator, Co-Host, Boundless Gamers",
-        skills: "Content Creator, Public Speaking, Content Creation, Communications",
-        email: "",
-        fact: "He's obsessed with H.G. Wells' The Time Machine and is writing his own version."
-    },
-    {
-        id:3,
         img: jacques,
         name: "Jacques Perkett",
         pronouns: "He/Him",

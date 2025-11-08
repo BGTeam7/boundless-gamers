@@ -11,6 +11,8 @@ import Home from "./pages/home";
 import Mission from './pages/mission';
 import Connect from './pages/connect';
 import Legal from './pages/legal';
+import TersmOfUse from './pages/termsofuse';
+import Privacy from './pages/legal';
 
 function App() {
   return (
@@ -21,7 +23,8 @@ function App() {
               <Route exact path="/" element={<Home />} />
               <Route path="/mission" element={<Mission />} />
               <Route path="/connect" element={<Connect />} />
-              <Route path="/legal" element={<Legal />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path='/termsofuse' element={<TersmOfUse/>}/>
               {/* <Route path="/conspiracy" element={<Conspiracy />}/>
               <Route path="/construction" element={<Construction />}/> */}
           </Routes>
