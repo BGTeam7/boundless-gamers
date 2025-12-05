@@ -13,12 +13,14 @@ import Connect from './pages/connect';
 import Legal from './pages/legal';
 import TersmOfUse from './pages/termsofuse';
 import Privacy from './pages/legal';
+import MuteButton from './components/mute';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar/>
+        <MuteButton/>
           <Routes>
               <Route exact path="/" element={<Home />} />
               <Route path="/mission" element={<Mission />} />

@@ -25,7 +25,7 @@ function TeamCard(props) {
             {toggle &&(
                 <div>
                     <div id="overlay" onClick={setToggle}></div>
-                    <div className="expanded-card bluefill flex flex-col md:flex-row-reverse gap-2 p-2">
+                    <div className="expanded-card overflow-hidden bluefill flex flex-col md:flex-row-reverse gap-2 p-2">
                         <img src={props.img} className="aspect-square w-full md:w-1/3 h-auto object-cover pinkframe border-pink-300 border-2"/>
                         <div className=" md:w-2/3 md:w-4/9 border-s-white border-2 p-4">
                             <div className="flex items-baseline gap-1">
