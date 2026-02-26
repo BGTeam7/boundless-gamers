@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
 import TeamMembers from "../data/teammembers";
 import TeamCard from "../components/teamcard";
 import conspiracy from "../assets/conspiracy.svg";
