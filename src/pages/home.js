@@ -143,9 +143,6 @@ const Home = () => {
                 <a href="https://www.twitch.tv/missrelaxinggaming/home" className="bluefill aspect-square">
                     <img src={miss} className="w-24 sm:w-52 aspect-square corner-frame p-1 sm:p-2 border-blue-300"></img>
                 </a>
-                <a href="https://www.twitch.tv/cobragirl" className="bluefill aspect-square">
-                    <img src={cobra} className="w-24 sm:w-52 aspect-square corner-frame p-1 sm:p-2 border-blue-300"></img>
-                </a>
             </div>
         </section>
         </>

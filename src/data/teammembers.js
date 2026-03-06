@@ -1,6 +1,5 @@
 import mike from "../assets/headshots/mike_p.jpg";
 import david from "../assets/headshots/davidt.png";
-import allie_p from "../assets/headshots/allie_p.png";
 import jacques from "../assets/headshots/jacques.jpeg";
 
 const TeamMembers = [
