@@ -1,12 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.424bdedc.css",
-    "main.js": "/static/js/main.e2056182.js",
+    "main.css": "/static/css/main.1892bb35.css",
+    "main.js": "/static/js/main.1c050b0b.js",
     "static/js/453.89257d21.chunk.js": "/static/js/453.89257d21.chunk.js",
     "static/media/davidt.png": "/static/media/davidt.a4ab9ddf675c92ddfdda.png",
-    "static/media/allie_p.png": "/static/media/allie_p.0d6ca621c8bfc597ee9e.png",
     "static/media/game.png": "/static/media/game.e50d36c21c36ddae90ce.png",
-    "static/media/logo.png": "/static/media/logo.c270fe857b71d05bfc91.png",
     "static/media/jacques.jpeg": "/static/media/jacques.5c2cc284b22d64547ebc.jpeg",
     "static/media/mike_p.jpg": "/static/media/mike_p.f2fb952c7052ad808b2d.jpg",
     "static/media/cobragirl.jpg": "/static/media/cobragirl.1c11eef8fe9957b6e899.jpg",
@@ -24,12 +22,12 @@
     "static/media/circuit.svg": "/static/media/circuit.cafb04c2d76afee1bfd53ae3cfc12b7a.svg",
     "static/media/border.svg": "/static/media/border.2aa6d392f455df7703e6.svg",
     "index.html": "/index.html",
-    "main.424bdedc.css.map": "/static/css/main.424bdedc.css.map",
-    "main.e2056182.js.map": "/static/js/main.e2056182.js.map",
+    "main.1892bb35.css.map": "/static/css/main.1892bb35.css.map",
+    "main.1c050b0b.js.map": "/static/js/main.1c050b0b.js.map",
     "453.89257d21.chunk.js.map": "/static/js/453.89257d21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.424bdedc.css",
-    "static/js/main.e2056182.js"
+    "static/css/main.1892bb35.css",
+    "static/js/main.1c050b0b.js"
   ]
 }
